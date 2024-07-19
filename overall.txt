@@ -1,0 +1,6 @@
+Run test file:
+    - go test  
+    - If you want to run tests with more verbose output, you can use the -v flag: go test -verbose
+    - If you want to run tests from a specific test file, you can specify the file name: example_test.go
+    - To run a specific test function, 
+    you can use the -run flag followed by the name of the test function (or a regex pattern to match test names): TestExampleFunction

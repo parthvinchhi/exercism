@@ -1,0 +1,26 @@
+Go is a statically typed, compiled programming language. 
+This exercise introduces three major language features: Packages, Functions, and Variables.
+
+Go is statically-typed, which means all variables must have a defined type at compile-time.
+    - var explicit int // This is explicitly typed
+    - implicit := 10 // This is implicitly typed, if we check the data type of this it will be int
+    - implicit := "10" // For this the data type will be string
+
+When a package is imported, only entities whose names start with a capital letter can be used / accessed. 
+E.g. - functions, types, variables, constants
+
+The recommended style of naming in Go is that identifiers will be named using camelCase, 
+except for those meant to be accessible across packages which should be PascalCase.
+
+Constants hold a piece of data just like variables, but their value cannot change during the execution of the program.
+
+Constants are defined using the const keyword and can be numbers, characters, strings or booleans: const Age = 21, const Name = "abc"
+
+Go functions accept zero or more parameters. Parameters must be explicitly typed, there is no type inference.
+
+Values are returned from functions using the return keyword.
+
+A function is invoked by specifying the function name and passing arguments for each of the function's parameters.
+
+Note that Go supports two types of comments. Single line comments are preceded by // and multiline comments are inserted between /* and */.
+
