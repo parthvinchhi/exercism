@@ -1,0 +1,13 @@
+In Go an application is organized in packages. A package is a collection of source files located in the same folder. 
+All source files in a folder must have the same package name at the top of the file. 
+By convention packages are named to be the same as the folder they are located in.
+
+Go provides an extensive standard library of packages which you can use in your program using the import keyword. 
+Standard library packages are imported using their name.
+
+Go provides an in-built package called fmt (format package) which offers a variety of functions to manipulate the format of input and output. 
+The most commonly used function is Sprintf, which uses verbs like %s to interpolate values into a string and returns that string.
+
+In Go floating point values are conveniently formatted with Sprintf's verbs: %g (compact representation), %e (exponent) or %f (non exponent). 
+All three verbs allow the field's width and numeric position to be controlled.
+
