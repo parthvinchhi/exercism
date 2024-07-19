@@ -1,0 +1,11 @@
+In the previous exercise, we saw that there are two ways to write comments in Go: 
+single-line comments that are preceded by //, and multiline comment blocks that are wrapped with /* and */.
+
+In Go, comments play an important role in documenting code. 
+They are used by the godoc command, which extracts these comments to create documentation about Go packages. 
+A documentation comment should be a complete sentence that starts with the name of the thing being described and ends with a period.
+
+A package-level variable can look like this:
+    // TemperatureCelsius represents a certain temperature in degrees Celsius.
+    var TemperatureCelsius float64
+
